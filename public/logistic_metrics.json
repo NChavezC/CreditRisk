@@ -1,0 +1,7 @@
+{
+    "model": "Logistic Regression (Robust)",
+    "train_auc": 0.6934,
+    "test_auc": 0.6859,
+    "validation_split": "Train: \u22642016 | Test: \u22652017",
+    "timestamp": "2026-02-24T23:29:56.749634"
+}
