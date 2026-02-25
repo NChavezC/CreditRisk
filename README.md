@@ -47,7 +47,7 @@ XGBoost selected as Champion model due to improved discrimination and calibratio
 
 Converted PD into Expected Net Value:
 
-$$ENV = (1 - PD) _ r _ L - PD _ LGD _ L$$
+$$ENV = (1 - PD)\cdot r\cdot L - PD\cdot LGD\cdot L$$
 
 Implemented:
 
