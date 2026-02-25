@@ -7,6 +7,7 @@ import Models from "./pages/Models";
 import Decisioning from "./pages/Decisioning";
 import Frontier from "./pages/Frontier";
 import LGD from "./pages/LGD";
+import Robustness from "./pages/Robustness";
 import Notebooks from "./pages/Notebooks";
 import About from "./pages/About";
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="decisioning" element={<Decisioning />} />
             <Route path="frontier" element={<Frontier />} />
             <Route path="lgd" element={<LGD />} />
+            <Route path="robustness" element={<Robustness />} />
             <Route path="notebooks" element={<Notebooks />} />
             <Route path="about" element={<About />} />
           </Route>

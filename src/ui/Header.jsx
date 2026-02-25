@@ -66,6 +66,15 @@ function Header() {
         </NavLink>
 
         <NavLink
+          to="/robustness"
+          className={({ isActive }) =>
+            `${linkBase} ${isActive ? linkActive : linkInactive}`
+          }
+        >
+          Robustness
+        </NavLink>
+
+        <NavLink
           to="/notebooks"
           className={({ isActive }) =>
             `${linkBase} ${isActive ? linkActive : linkInactive}`

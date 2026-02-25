@@ -1,0 +1,53 @@
+<!-- Save as: public/icon.svg  (or src/assets/icon.svg) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Credit Risk Icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path
+    d="M64 8c18 12 38 14 50 16v40c0 33-21 51-50 56C35 115 14 97 14 64V24c12-2 32-4 50-16Z"
+    fill="url(#g)"
+  />
+
+  <!-- Inner panel -->
+  <path
+    d="M64 20c14 9 30 11 40 13v31c0 25-16 39-40 44C40 103 24 89 24 64V33c10-2 26-4 40-13Z"
+    fill="#ffffff"
+    opacity="0.10"
+  />
+
+  <!-- Chart axes -->
+  <path d="M40 84V44" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M40 84H92" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Trend line -->
+  <path
+    d="M44 78 L56 66 L66 71 L78 55 L90 48"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Nodes -->
+  <circle cx="56" cy="66" r="3.6" fill="#38bdf8"/>
+  <circle cx="66" cy="71" r="3.6" fill="#38bdf8"/>
+  <circle cx="78" cy="55" r="3.6" fill="#38bdf8"/>
+  <circle cx="90" cy="48" r="3.6" fill="#38bdf8"/>
+
+  <!-- Checkmark (risk decision) -->
+  <path
+    d="M46 54l8 8 18-20"
+    fill="none"
+    stroke="#a7f3d0"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+</svg>
